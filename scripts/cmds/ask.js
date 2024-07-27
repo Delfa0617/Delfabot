@@ -76,7 +76,7 @@ const fonts = {
  if (messageContent.startsWith("sonic.exe")) {
  const input = messageContent.replace(/^sonic.exe\*/, "").trim();
  const { response, messageID } = await getAIResponse(input, event.senderID, message.messageID);
- message.reply(`ミ★stella★彡\n━━━━━━━━━━━━━━━━\n🏁${response}🏁\n━━━━━━━━━━━━━━━━\nミ★stella★彡`, messageID);
+ message.reply(`ミ★Delfa bot★彡\n━━━━━━━━━━━━━━━━\n🏁${response}🏁\n━━━━━━━━━━━━━━━━\nミ★Delfa bot★彡`, messageID);
  }
  }
   }
