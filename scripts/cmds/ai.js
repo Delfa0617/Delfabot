@@ -1,4 +1,4 @@
-#cmd install ai.js module.exports = {
+module.exports = {
 	config: {
 		name: "ai",
 		aliases: ["ai"],
@@ -18,7 +18,7 @@
   ]
 let img = link[Math.floor(Math.random()*link.length)]
 message.send({
-  body: "𝐂'𝐞𝐬𝐭 𝐩𝐚𝐬 𝐚𝐢 𝐜𝐫𝐞𝐭𝐢𝐧 𝐜'𝐞𝐬𝐭 𝐒𝐨𝐧𝐢𝐜🙍",attachment: await global.utils.getStreamFromURL(img)
+  body: "j'écoute tes préoccupations",attachment: await global.utils.getStreamFromURL(img)
 })
 }
 }
