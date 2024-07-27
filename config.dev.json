@@ -22,7 +22,7 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "Stella 👩‍💻",
+  "nickNameBot": "Delfa bot 👩‍💻",
   "prefix": "°",
   "database": {
     "type": "sqlite",
